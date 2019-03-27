@@ -6,6 +6,7 @@ import { baseStyles } from 'styles/base'
 import { IsUndefined, IsNullArray } from 'utils/helper'
 import { SkypeIndicator } from 'react-native-indicators'
 import { isIOS, isAndroid } from 'utils/platform'
+import config from 'config/config'
 const axios = require('axios');
 export default class App extends Component {
   constructor(props){
@@ -31,8 +32,8 @@ export default class App extends Component {
   }
 
   callBackendAPI = async () => {
-    const response = isIOS() ? await fetch('http://localhost:7777/data') 
-    : await fetch('http://10.0.2.2:7777/data'); //For Android Simulator
+    const response = await fetch(config.domainURL + '/data') 
+
     const body = await response.json();
     if (response.status !== 200) {
       throw Error(body.message) 

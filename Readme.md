@@ -18,8 +18,8 @@
 7. cd tannara-assignment
 8. run = `react-native run-android`
 
-9. If Show Error Page Please Chage my IP File App.js Line:35
-    const response = await fetch('http://10.0.2.2:7777/data'); // default AVD to IP Address example 192.168.1.xxx await fetch('http://192.168.1.xxx:7777/data');
+9. If Show Error Page Please Chage my IP File src/config/config.js
+    Android Default AVD Emulator http://10.0.2.2:7777 to my IP Address example 192.168.1.xxx
 
 Link setup React-Native https://facebook.github.io/react-native/docs/getting-started
 
