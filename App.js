@@ -41,7 +41,7 @@ export default class App extends Component {
   };
 
   _onPressNull = () => {
-    this.setState({isError: false, data: undefined})
+    this.setState({isError: false, data: []})
   };
 
   _onPressError = () => {
