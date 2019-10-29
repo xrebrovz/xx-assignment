@@ -13,6 +13,7 @@ class Inbox extends Component {
     console.log('X8')
     console.log('X3')
     console.log('X4')
+    console.log('X7')
   }
 
   gg = () => (
