@@ -13,6 +13,10 @@ class Inbox extends Component {
     console.log('X3')
   }
 
+  gg = () => (
+    console.log('X6')
+  );
+
   _renderItem = ({item}) => (
     <Item
       onPressItem={this._onPressItem}
