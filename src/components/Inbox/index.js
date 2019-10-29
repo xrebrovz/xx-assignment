@@ -10,6 +10,7 @@ class Inbox extends Component {
   }
   
   componentDidMount() {
+    console.log('X8')
     console.log('X3')
     console.log('X4')
   }
