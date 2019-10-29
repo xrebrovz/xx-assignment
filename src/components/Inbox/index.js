@@ -10,7 +10,7 @@ class Inbox extends Component {
   }
   
   componentDidMount() {
-
+    console.log('X3')
   }
 
   _renderItem = ({item}) => (
