@@ -10,8 +10,7 @@ class Inbox extends Component {
   }
   
   componentDidMount() {
-    console.log('X')
-    console.log('X2')
+    console.log('X3')
   }
 
   _renderItem = ({item}) => (
