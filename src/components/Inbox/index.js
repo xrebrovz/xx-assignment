@@ -15,6 +15,7 @@ class Inbox extends Component {
     console.log('X4')
     console.log('X7')
     console.log('X10')
+    console.log('X9')
   }
 
   gg = () => (
