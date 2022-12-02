@@ -28,7 +28,7 @@ Link setup React-Native https://facebook.github.io/react-native/docs/getting-sta
 1. cd tannara-assignment
 2. run = `npm test`
 
-## Thank you ... Tannara Ervithaysuporn
+## Thank you ... zz
 
 
 
